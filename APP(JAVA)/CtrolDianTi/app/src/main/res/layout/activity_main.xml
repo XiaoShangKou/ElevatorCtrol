@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:elevation="10dp">
+        </Spinner>
+
+        <Button
+            android:id="@+id/shuoming"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/jiazai"/>
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:background="#FF065E8D"
+            android:elevation="10dp"
+            android:padding="10dp">
+
+
+            <RadioButton
+                android:id="@+id/rb_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/Radiuo"
+                android:textColor="@color/textcolor"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/rb_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/rb_a"
+                android:buttonTint="@color/Radiuo"
+                android:textColor="@color/textcolor"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/rb_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rb_a"
+                android:buttonTint="@color/Radiuo"
+                android:textColor="@color/textcolor"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/rb_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rb_a"
+                android:layout_toRightOf="@id/rb_c"
+                android:buttonTint="@color/Radiuo"
+                android:textColor="@color/textcolor"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/rb_e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rb_c"
+                android:buttonTint="@color/Radiuo"
+                android:textColor="@color/textcolor"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/rb_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rb_c"
+                android:layout_toRightOf="@id/rb_e"
+                android:buttonTint="@color/Radiuo"
+                android:textColor="@color/textcolor"
+                android:textSize="13sp" />
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/bd"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/rg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>

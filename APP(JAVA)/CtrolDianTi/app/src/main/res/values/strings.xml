@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">电梯预约</string>
+    <string name="shuoming">使用说明</string>
+    <string name="ShuoMing">连接到设备建立的网络热点,之后便可以进行电梯预约操作\n设备建立的网络热点:\nWiFi名称:小伤口\n密码:12345678</string>
+    <string name="zangwenshuoming">སྒྲིག་ཆས་འཛུགས་སྐྲུན་བྱས་པའི་དྲ་རྒྱའི་ཚ་ཤོས་ལ་སྦྲེལ་རྗེས་གློག་སྐས་སྔོན་མངག་བཀོལ་སྤྱོད་བྱས་ཆོག\nསྒྲིག་ཆས་བཙུགས་པའི་དྲ་རྒྱའི་ཚ་གནད་།:\nམིང་།:小伤口\nགསང་གྲངས།:12345678</string>
+</resources>
